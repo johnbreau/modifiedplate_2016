@@ -66,3 +66,16 @@ button {
 button:hover {
   background-color: #28739e;
 }
+
+
+.mainContainer {
+  margin-top:60px !important;
+  margin: 0 auto;
+  width: 890px;
+}
+
+.headerImage {
+  background-image: url('../assets/images/headerImage.png');
+  background-repeat: no-repeat;
+  min-height:300px;
+}
