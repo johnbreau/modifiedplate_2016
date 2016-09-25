@@ -1,4 +1,6 @@
-<nav>
-  <a [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">HOME</a>
-  <a [routerLink]="['/about']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">ABOUT</a>
-</nav>
+<aside class="sidebar">
+  <div class="random-fig">
+    <h1>A Random Minifig</h1>
+    <img src='{{ randomImage }}'>
+  </div>
+</aside>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NameListService } from '../shared/index';
+import { SideBarComponent } from '../shared/sidebar/sidebar.component';
 
 /**
  * This class represents the lazy loaded HomeComponent.
