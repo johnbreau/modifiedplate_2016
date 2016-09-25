@@ -1,0 +1,23 @@
+<div class="EntryFormComponent">
+    <h1>Modified Plate Blog Entry:</h1>
+    <form #f="ngForm" (ngSubmit)="onSubmitTemplateBased()">
+        <p>
+            <label for="title">Entry Title:</label>
+            <input type="text" name="title"
+                [(ngModel)]="entry.title" required>
+        </p>
+        <p>
+            <label for="date">Entry Date:</label>
+            <input type="date" name="date"
+                [(ngModel)]="entry.date" required>
+        </p>
+        <p>
+            <label for="content">Entry Text:</label>
+            <input type="textarea" name="conent"
+                [(ngModel)]="entry.content" required>
+        </p>
+        <p>
+            <button type="submit" [disabled]="!f.valid">Submit</button>
+        </p>
+    </form>
+</div>
