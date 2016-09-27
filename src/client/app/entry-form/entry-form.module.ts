@@ -9,4 +9,5 @@ import { EntryFormComponent } from './entry-form.component';
   exports: [EntryFormComponent],
   providers: []
 })
+
 export class EntryFormModule { }

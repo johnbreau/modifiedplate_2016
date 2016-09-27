@@ -7,5 +7,5 @@ import { EntryFormRoutes } from './entry-form/index';
 export const routes: Routes = [
   ...HomeRoutes,
   ...AboutRoutes,
-  ...EntryFormRoutes
+  ...EntryFormRoutes,
 ];
